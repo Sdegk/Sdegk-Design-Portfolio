@@ -727,6 +727,18 @@
             .grid-info .card:nth-child(3) {
                 grid-column: span 1;
             }
+
+            @media (min-width: 769px) and (max-width: 1100px) {
+    .portfolio-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .portfolio-item {
+        flex: 1 1 320px;
+        max-width: calc(50% - 12px);
+    }
+}
         }
     </style>
 </head>
